@@ -1,3 +1,3 @@
-# RSNA-Spotlight-2023
+# RSNA Spotlight 2023
 
 # AI Implementation: Building Expertise and Influence.
