@@ -13,8 +13,8 @@ In the field of radiology, one of the most commmon tasks is to examine chest X-r
 To aid in this classification task with the use of computers, we will introduce a Convolutional Neural Network (CNN), a type of neural network that is specially good in recognizing patterns and objects in images, much like a team of specialized radiology trainees.
 
 ### 2.1. Layers of the CNN
-Convolutional Layers
-Each trainee specializes in identifying certain features in the X-ray. One might be proficient at noticing abnormalities in the cardiomediastinal contour, another at discerning variations in lung textures, and another at spotting bone structure irregularities. Their observations are like looking at the X-ray through 'special glasses'.
+#### Convolutional Layers:
+#### Each trainee specializes in identifying certain features in the X-ray. One might be proficient at noticing abnormalities in the cardiomediastinal contour, another at discerning variations in lung textures, and another at spotting bone structure irregularities. Their observations are like looking at the X-ray through 'special glasses'.
 
 Pooling Layers
 A second type of trainee then takes these detailed observations and simplifies them. If the first trainee notes several areas of abnormal cardiomediastinal contour, the second trainee could summarize this as "abnormal cardiomediastinal contour detected".
