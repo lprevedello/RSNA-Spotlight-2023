@@ -10,7 +10,7 @@ The images for this session were obtained from: Wang X, Peng Y, Lu L, Lu Z, Bagh
 In the field of radiology, one of the most commmon tasks is to examine chest X-rays and categorize them based on observed features, such as the cardiomediastinal contour, lung clarity, and bone condition to determine if a patient may have a specific disease or diseases. This task at its core is image classification.
 
 ## 2. How Convolutional Neural Networks (CNNs) work
-To aid the radiologist in this task, we introduce a Convolutional Neural Network (CNN), much like a team of specialized radiology trainees.
+To aid in this classification task, we introduce a Convolutional Neural Network (CNN), a type of neural network that is specially good in recognizing patterns and objects in images, much like a team of specialized radiology trainees.
 
 ### 2.1. Layers of the CNN
 Convolutional Layers
