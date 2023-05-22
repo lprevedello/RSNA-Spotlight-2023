@@ -14,7 +14,7 @@ To aid in this classification task with the use of computers, we will introduce 
 
 ### 2.1. Layers of the CNN
 #### Convolutional Layers:
-Each trainee specializes in identifying certain features in the X-ray. One might be proficient at noticing abnormalities in the cardiomediastinal contour, another at discerning variations in lung textures, and another at spotting bone structure irregularities. Their observations are like looking at the X-ray through 'special glasses'.
+Each trainee specializes in identifying certain features in the X-ray. One might be proficient at noticing abnormalities in the cardiomediastinal contour, another at discerning variations in lung textures, and another at spotting bone structure irregularities. Their observations are like looking at the X-ray through 'special glasses' or filters.
 
 #### Pooling Layers:
 A second type of trainee then takes these detailed observations and simplifies them. If the first trainee notes several areas of abnormal cardiomediastinal contour, the second trainee could summarize this as "abnormal cardiomediastinal contour detected".
