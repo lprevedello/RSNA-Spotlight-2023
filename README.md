@@ -7,7 +7,7 @@
 The medical images for this session (chest x-rays) were obtained from: Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017 and available [here](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community).
 
 ## 1. Basics of Image Classification
-In the field of radiology, one of the most commmon tasks is to examine chest X-rays and categorize them based on observed features, such as the cardiomediastinal contour, lung clarity, and bone condition to determine if a patient may have a specific disease or diseases. This task at its core is image classification.
+In the field of radiology, one of the most commmon tasks is to examine chest X-rays and categorize them based on observed features, such as the cardiomediastinal contour, lung opacity, and bone condition to determine if a patient may have a specific disease. This task at its core is image classification.
 
 ## 2. How Convolutional Neural Networks (CNNs) work
 To aid in this classification task, we introduce a Convolutional Neural Network (CNN), a type of neural network that is specially good in recognizing patterns and objects in images, much like a team of specialized radiology trainees.
