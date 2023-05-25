@@ -4,28 +4,28 @@
 
 ## Acknowledgements
 
-The medical images for this session (chest x-rays) were obtained from: Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017 and available [here](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community).
+The medical images for this session (chest x-rays) were obtained from: Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017 and are available [here](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community).
 
 ## Basics of Image Classification
-In the field of radiology, one of the most commmon tasks is the interpretation of chest X-rays. This task, at its core, is image classification.
+In the field of radiology, one of the most common tasks is the interpretation of chest X-rays. This task, at its core, is image classification.
 
 ### How Convolutional Neural Networks (CNNs) work
-To aid in this classification task with the use of computers, we will introduce a Convolutional Neural Network (CNN), a type of neural network that is specially good in recognizing patterns and objects in images, much like a team of specialized radiology trainees.
+To aid in this classification task with the use of computers, we will introduce a Convolutional Neural Network (CNN), a type of neural network that is especially good at recognizing patterns and objects in images, much like a team of specialized radiology trainees.
 
 ### Layers of the CNN
 #### Convolutional Layers:
 Imagine that each of these specialized radiology trainees focuses in identifying certain features in the X-ray. One might be proficient at noticing abnormalities in the cardiomediastinal contour, another at discerning variations in lung textures, and another at spotting abnormalities in the bone. Their observations are like looking at the X-ray through 'special lenses' or in the case of a CNN: filters.
 
 #### Pooling Layers:
-Now imagine that each of the previous trainees are providing information to a second more senior trainee that takes the detailed observations and summarizes them. If the first trainee notes several areas of abnormal lung texture with opacification of the inferolateral portion of one lung, the second trainee could summarize this as "lung opacity" and "blunting of the costophrenic angle". The process of summarization of the observations is done by the pooling layers in the CNN.
+Now, imagine that each of the previous trainees are providing information to a second more senior trainee who takes the detailed observations and summarizes them. If the first trainee notes several areas of abnormal lung texture with opacification of the inferolateral portion of one lung, the second trainee could summarize this as "lung opacity" and "blunting of the costophrenic angle". The process of summarization of the observations is done by the pooling layers in the CNN.
 
 #### Fully Connected Layers:
-Finally, a senior trainee considers these summarized notes and forms a preliminary diagnosis, such as "pneumonia" and "plaural effusion". This process of mapping findings or observations to a pre-defined set of labels or diseases is done by the fully connected layer in the CNN.
+Finally, a senior trainee considers these summarized notes and forms a preliminary diagnosis, such as "pneumonia" and "pleural effusion". This process of mapping findings or observations to a pre-defined set of labels or diseases is done by the fully connected layer in the CNN.
 
 ### Training the Network (Backpropagation and Gradient Descent)
 The trainees are shown a vast number of chest X-rays already diagnosed by expert radiologists - this 'labeled data' forms their training material.
 
-In the same way an expert radiologist points out the errors of a trainee, when a CNN makes an incorrect preliminary diagnosis, there are mechanism (i.e. backpropagation and gradient descent) that help the network adjust its approach to maximize correct responses. This process is performed iteratively and since there are so many different starting points and potential solutions, each training run might identify different optimal paths. This randomness results in diverse solutions that the CNN can use to diagnose X-rays accurately. However, once a solution is identified (the final weights of the network), as long as we keep the network configuration the same, we can expect the same high level of performance each time we use it.
+In the same way that an expert radiologist points out the errors of a trainee, when a CNN makes an incorrect preliminary diagnosis, there are mechanisms (i.e., backpropagation and gradient descent) that help the network adjust its approach to maximize correct responses. This process is performed iteratively and since there are so many different starting points and potential solutions, each training run might identify different optimal paths. This randomness results in diverse solutions that the CNN can use to diagnose X-rays accurately. However, once a solution is identified (the final weights of the network), as long as we keep the network configuration the same, we can expect the same high level of performance each time we use it.
 
 ## Experiments
 
@@ -62,7 +62,7 @@ Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotligh
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 ![example image](./images/image6.jpg)
 
-Upload the cardiomegaly case and notice how the inference of the model is incorrect: "No finding" in a clear case of cardiomegaly.
+Upload the cardiomegaly case and notice how the model's inference is incorrect: "No finding" in a clear case of cardiomegaly.
 ![example image](./images/image7.jpg)
 
 Let's see how things change if we make the dataset balanced.
@@ -95,7 +95,7 @@ Exit out of the "Under the hood" widget by clicking on the X sign in the upper r
 Upload the cardiomegaly case and observe the output of the model. It should be better than before.
 ![example image](./images/image11.jpg)
 
-Now let's make things a bit more interesting and add another finding: pleural effusion.
+Now, let's make things a bit more interesting and add another finding: pleural effusion.
 
 ### Experiment 3
 
@@ -114,29 +114,29 @@ Next, click on (1) Advanced to expand additional options, (2) Under the Hood to 
 Accuracy is relatively high as shown in the graph above. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image14.jpg)
 
-The model can differentiate cardiomegaly, effusion and cases without any of these abnormalities reasonably well. However, based on the confusion matrix, the model does mixes cases of effusion and cardiomegaly. This starts to make sense when you look at the cases in the cardiomegaly dataset and see that are several cardiomegaly cases that also contain pleural effusion.
+The model can differentiate reasonably well among cardiomegaly, effusion, and cases without any of these abnormalities. However, based on the confusion matrix, the model mixes cases of effusion and cardiomegaly. This starts to make sense when you look at the cases in the cardiomegaly dataset and see that there are several cardiomegaly cases with pleural effusion in the same image.
 
 This brings up an important point. For the purpose of this experiement, we have simplified things and the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. In this type of classification problem a case can be in one and only one of three or more classes. In reality, the correct method to determine the findings in chest-ray would be multi-label classification in which each case can have more than one class.
 
-Despite this limitation, let's see if the model is able to distinguish between these classes by running inference on three different examples: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg) and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
+Despite this limitation, let's see if the model is able to distinguish among these classes by running inference on three different examples: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
 
-Upload the three cases and observe the output of the model. It should something like this:
+Upload the three cases and observe the output of the model. It should look something like this:
 ![example image](./images/image15.jpg)
 
 Now let's make things even more interesting and add yet another finding: pneumonia.
 
 ### Experiment 4
 
-If you do the same steps described previously for the file experiment4.tm you should see something similar to this:
+If you perform the same steps described previously for the file experiment4.tm, you should see something similar to this:
 ![example image](./images/image16.jpg)
 
-Now that you have a model let's run inference on 4 different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
+Now that you have a model, let's run inference on four different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
 
 Upload the four cases and observe the output of the model. It should something like this:
 ![example image](./images/image17.jpg)
 
-Unfortunately the model was not able to distinguish well between pneumonia and effusion with the examples provided.
+Unfortunately, the model was not able to distinguish well between pneumonia and effusion with the examples provided.
 
-However, the goal of this exercise was not to create a clinically ready algorithm, was just to show some of the most important components of an algorithm development so you can:
+However, the goal of this exercise was not to create a clinically ready algorithm, but rather to show some of the most important components of algorithm development so you can:
   *Understand how the overall process to train a deep learning model works
   *Learn basic concepts on how to assess model generalizability and performance
