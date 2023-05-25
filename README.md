@@ -90,7 +90,7 @@ This time the model can differentiate cardiomegaly cases from cases without card
 
 We can actually see if this is the case by testing it with the same example as before:
 
-Use the cardiomegaly case you previously downloaded or download it again by right clicking [here](https://raw.githubusercontent.com/lprevedello/RSNA-Spotlight-2023/main/images/cardiomegaly.jpg) and chosing "Download Linked File"..
+Use the cardiomegaly case you previously downloaded or download it again by right clicking [here](https://raw.githubusercontent.com/lprevedello/RSNA-Spotlight-2023/main/images/cardiomegaly.jpg) and chosing "Download Linked File".
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 
