@@ -114,11 +114,11 @@ Next, click on (1) Advanced to expand additional options, (2) Under the Hood to 
 Accuracy is relatively high as shown in the graph above. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image14.jpg)
 
-This time the model can differentiate cardiomegaly, effusion and cases without any of these abnormalities.
+The model can differentiate cardiomegaly, effusion and cases without any of these abnormalities reasobaly well. However, based on the confusion matrix, the model does mixes cases of effusion and cardiomegaly. This starts to make sense when you look at the cases in the cardiomegaly dataset and see that are several cardiomegaly cases that also contain pleural effusion.
 
-Notice that, for the purpose of this experiement, the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. This is a type of classification problem where an instance (a row of data in your dataset) can be in one and only one of three or more classes. This was done just for simplification purposes because in reality the correct method for this chest-ray would be multi-label classification in which  each instance can belong to more than one class.
+This brings up an important point. For the purpose of this experiement, we have simplified things and the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. In this type of classification problem a case can be in one and only one of three or more classes. In reality, the correct method to determine the findings in chest-ray would be multi-label classification in which each case can have more than one class.
 
-We can actually see if this is the case by testing it with the same example as before:
+Despite this limitation, let's see if the model is able to distinguish between these classes by running inference on three different examples: cardiomegaly(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), effusion(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg) and normal(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
 
 Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg).
 
