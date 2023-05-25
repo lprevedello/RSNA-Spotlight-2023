@@ -118,13 +118,9 @@ The model can differentiate cardiomegaly, effusion and cases without any of thes
 
 This brings up an important point. For the purpose of this experiement, we have simplified things and the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. In this type of classification problem a case can be in one and only one of three or more classes. In reality, the correct method to determine the findings in chest-ray would be multi-label classification in which each case can have more than one class.
 
-Despite this limitation, let's see if the model is able to distinguish between these classes by running inference on three different examples: cardiomegaly(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), effusion(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg) and normal(https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
+Despite this limitation, let's see if the model is able to distinguish between these classes by running inference on three different examples: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg) and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
 
-Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg).
+Upload the three cases and observe the output of the model. It should something like this:
+![example image](./images/image15.jpg)
 
-Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
-
-Upload the cardiomegaly case and observe the output of the model. It should be better than before.
-![example image](./images/image11.jpg)
-
-Now let's make things a bit more interesting and add another finding: pleural effusion.
+Now let's make things even more interesting and add yet another finding: pneumonia.
