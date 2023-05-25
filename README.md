@@ -53,13 +53,13 @@ Next, click on (1) Advanced to expand additional options, (2) Under the Hood to 
 Accuracy is very high as shown in the graph above. However, is the model really performing well? Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image5.jpg)
 
-Notice how poor performance actually is! This discrepancy relates to the unbalanced nature of the data. Notice that there are 10 times more normals than cases of cardiomegaly. If the modelgesses everything normal it would be 80% accurate despite being of no help at all. Be careful with accuracy in unbalanced data scenarios!
+Notice how poor the performance actually is! This discrepancy relates to the unbalanced nature of the data. Notice that there are 10 times more normals than cases of cardiomegaly. If the model guesses everything normal it would be 80% accurate despite being of no help at all. Be careful with accuracy in unbalanced data scenarios!
 
-We can actually prove how poor performing the model is by testing the model with the following example:
+We can actually prove how poor the performance of the model is by testing it with the following example:
 
 Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
 
-Exitout of the "Under the hood" section. Click on the option "Webcam" and change to "File".
+Exit out of the "Under the hood" section. Click on the option "Webcam" and change to "File".
 ![example image](./images/image6.jpg)
 
 Upload the cardiomegaly case and notice how the inference of the model is incorrect: "No finding" in a clear case of cardiomegaly.
