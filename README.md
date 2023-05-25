@@ -75,5 +75,5 @@ Save this file somewhere you can locate later, it will be needed in the next ste
 Click on the left upper corner and "Open project from file" to load your first experiment.
 ![example image](./images/image2.jpg)
 
-Upload the experiment1.tm file and wait for it to load. You should see the following page (please ensure the headings match):
+Upload the experiment2.tm file and wait for it to load. You should see the following page (please ensure the headings match):
 ![example image](./images/image8.jpg)
