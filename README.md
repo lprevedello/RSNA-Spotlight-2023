@@ -48,5 +48,5 @@ Upload the experiment1.tm file and wait for it to load. You should see the follo
 Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
 ![example image](./images/image4.jpg)
 
-Accuracy is high as shown in the graph above. However, is the model really well? Let interpret results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+Accuracy is high as shown in the graph above. However, is the model really performing well? Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image5.jpg)
