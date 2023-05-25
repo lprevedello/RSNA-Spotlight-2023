@@ -105,16 +105,18 @@ Save this file somewhere you can locate later, it will be needed in the next ste
 Click on the left upper corner and "Open project from file" to load your first experiment.
 ![example image](./images/image2.jpg)
 
-Upload the experiment2.tm file and wait for it to load. You should see the following page (please ensure the headings match):
+Upload the experiment3.tm file and wait for it to load. You should see the following page (please ensure the headings match):
 ![example image](./images/image12.jpg)
 
 Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
 ![example image](./images/image13.jpg)
 
-Accuracy is relatively high as shown in the graph above. But this time around it seems real. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+Accuracy is relatively high as shown in the graph above. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image14.jpg)
 
-This time the model can differentiate cardiomegaly cases from cases without cardiomegaly.
+This time the model can differentiate cardiomegaly, effusion and cases without any of these abnormalities.
+
+Notice that, for the purpose of this experiement, the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. This is a type of classification problem where an instance (a row of data in your dataset) can be in one and only one of three or more classes. This was done just for simplification purposes because in reality the correct method for this chest-ray would be multi-label classification in which  each instance can belong to more than one class.
 
 We can actually see if this is the case by testing it with the same example as before:
 
