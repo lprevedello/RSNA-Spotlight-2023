@@ -29,7 +29,7 @@ In the same way an expert radiologist points out the errors of a trainee, when a
 
 ## Experiments
 
-For this session we will use Teachable Machine. Teachable Machine is a web-based tool created by Google that allows users to easily create machine learning models without needing any specialized knowledge or programming. The user can train the model to recognize images, sounds, or poses by simply uploading examples or providing them in real time. Once trained, the model can then be exported and used in different projects, applications, or websites. 
+For this session we will use Teachable Machine, a web-based tool created by Google that allows users to easily create machine learning models without needing any specialized knowledge, programming or advanced hardware.
 
 To load Teahcable machine right click on the teachable machine link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
 
