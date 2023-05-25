@@ -26,3 +26,11 @@ Finally, a senior trainee considers these summarized notes and forms a prelimina
 The trainees are shown a vast number of chest X-rays already diagnosed by expert radiologists - this 'labeled data' forms their training material.
 
 In the same way an expert radiologist points out the errors of a trainee, when a CNN makes an incorrect preliminary diagnosis, there are mechanism (i.e. backpropagation and gradient descent) that help the network adjust its approach to maximize correct responses. This process is performed iteratively and since there are so many different starting points and potential solutions, each training run might identify different optimal paths. This randomness results in diverse solutions that the CNN can use to diagnose X-rays accurately. However, once a solution is identified (the final weights of the network), as long as we keep the network configuration the same, we can expect the same high level of performance each time we use it.
+
+## Experiments
+
+For this session we will use Teachable Machine. Teachable Machine is a web-based tool created by Google that allows users to easily create machine learning models without needing any specialized knowledge or programming. The user can train the model to recognize images, sounds, or poses by simply uploading examples or providing them in real time. Once trained, the model can then be exported and used in different projects, applications, or websites. 
+
+To load Teahcable machine right click on the teachable machine link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
+
+You should see this website:
