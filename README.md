@@ -59,7 +59,7 @@ Notice how poor the performance actually is! This discrepancy relates to the unb
 
 We can actually prove how poor the performance of the model is by testing it with the following example:
 
-Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
+To download a cardiomegaly case righ + click [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg) and chose "Download Linked File".
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 ![example image](./images/image6.jpg)
@@ -90,7 +90,7 @@ This time the model can differentiate cardiomegaly cases from cases without card
 
 We can actually see if this is the case by testing it with the same example as before:
 
-Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg).
+Use the cardiomegaly case you previously downloaded or download it again by right clicking [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg) and chosing "Download Linked File"..
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 
@@ -120,7 +120,7 @@ The model can differentiate reasonably well among cardiomegaly, effusion, and ca
 
 This brings up an important point. For the purpose of this experiement, we have simplified things and the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. In this type of classification problem a case can be in one and only one of three or more classes. In reality, the correct method to determine the findings in chest-ray would be multi-label classification in which each case can have more than one class.
 
-Despite this limitation, let's see if the model is able to distinguish among these classes by running inference on three different examples: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
+Despite this limitation, let's see if the model is able to distinguish among these classes by running inference on three different examples: (right click and download as a linked file each) [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg).
 
 Upload the three cases and observe the output of the model. It should look something like this:
 ![example image](./images/image15.jpg)
@@ -132,7 +132,7 @@ Now let's make things even more interesting and add yet another finding: pneumon
 If you perform the same steps described previously for the file experiment4.tm [available here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment4.tm), you should see something similar to this:
 ![example image](./images/image16.jpg)
 
-Now that you have a model, let's run inference on four different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
+Now that you have a model, let's run inference on four different cases: (right click and download as a linked file each) [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
 
 Upload the four cases and observe the output of the model. It should something like this:
 ![example image](./images/image17.jpg)
