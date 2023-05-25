@@ -59,7 +59,7 @@ We can actually prove how poor the performance of the model is by testing it wit
 
 Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
 
-Exit out of the "Under the hood" section. Click on the option "Webcam" and change to "File".
+Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 ![example image](./images/image6.jpg)
 
 Upload the cardiomegaly case and notice how the inference of the model is incorrect: "No finding" in a clear case of cardiomegaly.
@@ -90,7 +90,7 @@ We can actually see if this is the case by testing it with the same example as b
 
 Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
 
-Exit out of the "Under the hood" section. Click on the option "Webcam" and change to "File".
+Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 
 Upload the cardiomegaly case and observe the output of the model. It should be better than before.
 ![example image](./images/image11.jpg)
