@@ -31,11 +31,11 @@ In the same way an expert radiologist points out the errors of a trainee, when a
 
 For this session we will use Teachable Machine, a web-based tool created by Google that allows users to easily create machine learning models without needing any specialized knowledge, programming or advanced hardware.
 
-To load Teahcable machine right click on the teachable machine link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click). Please keep the two tabs open.
+To load Teachable machine right click on the link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click). Please keep the two tabs open.
 
 You should see this website:
 ![example image](./images/image1.jpg)
 
-Click on the left upper corner and "Open project from file" to load your first experiment.
-
 Download the file for experiment 1 here: [experiment 1](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment1.tm)
+
+Click on the left upper corner and "Open project from file" to load your first experiment.
