@@ -127,7 +127,7 @@ Now let's make things even more interesting and add yet another finding: pneumon
 
 ### Experiment 4
 
-If you perform the same steps described previously for the file experiment4.tm, you should see something similar to this:
+If you perform the same steps described previously for the file experiment4.tm [available here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment4.tm), you should see something similar to this:
 ![example image](./images/image16.jpg)
 
 Now that you have a model, let's run inference on four different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
