@@ -138,5 +138,5 @@ Upload the four cases and observe the output of the model. It should something l
 Unfortunately, the model was not able to distinguish well between pneumonia and effusion with the examples provided.
 
 However, the goal of this exercise was not to create a clinically ready algorithm, but rather to show some of the most important components of algorithm development so you can:
-  *Understand how the overall process to train a deep learning model works
-  *Learn basic concepts on how to assess model generalizability and performance
+  * Understand how the overall process to train a deep learning model works
+  * Learn basic concepts on how to assess model generalizability and performance
