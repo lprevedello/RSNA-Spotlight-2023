@@ -69,7 +69,7 @@ Let's see how things change if we make the dataset balanced.
 
 ### Experiment 2
 
-Download the file for experiment 2 here: [experiment 2](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm)
+Download the file for experiment [here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm).
 Save this file somewhere you can locate later, it will be needed in the next step.
 
 Click on the left upper corner and "Open project from file" to load your first experiment.
