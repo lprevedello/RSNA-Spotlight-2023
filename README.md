@@ -81,14 +81,14 @@ Upload the experiment2.tm file and wait for it to load. You should see the follo
 Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
 ![example image](./images/image9.jpg)
 
-Accuracy is relatively high as shown in the graph above. But this around it seems real. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+Accuracy is relatively high as shown in the graph above. But this time around it seems real. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image10.jpg)
 
-This time the model can differentiate cardiomegaly cases from normal ones.
+This time the model can differentiate cardiomegaly cases from cases without cardiomegaly.
 
 We can actually see if this is the case by testing it with the same example as before:
 
-Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
+Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 
