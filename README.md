@@ -48,5 +48,18 @@ Upload the experiment1.tm file and wait for it to load. You should see the follo
 Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
 ![example image](./images/image4.jpg)
 
-Accuracy is high as shown in the graph above. However, is the model really performing well? Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+Accuracy is very high as shown in the graph above. However, is the model really performing well? Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image5.jpg)
+
+Notice how poor performance actually is! This discrepancy relates to the unbalanced nature of the data. Notice that there are 10 times more normals than cases of cardiomegaly. If the modelgesses everything normal it would be 80% accurate despite being of no help at all. Be careful with accuracy in unbalanced data scenarios!
+
+Let's see how things change if we make the dataset balanced.
+
+Download the file for experiment 2 here: [experiment 2](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm)
+Save this file somewhere you can locate later, it will be needed in the next step.
+
+Click on the left upper corner and "Open project from file" to load your first experiment.
+![example image](./images/image2.jpg)
+
+Upload the experiment1.tm file and wait for it to load. You should see the following page (please ensure the headings match):
+![example image](./images/image6.jpg)
