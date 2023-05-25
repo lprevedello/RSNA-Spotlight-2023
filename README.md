@@ -55,6 +55,16 @@ Accuracy is very high as shown in the graph above. However, is the model really 
 
 Notice how poor performance actually is! This discrepancy relates to the unbalanced nature of the data. Notice that there are 10 times more normals than cases of cardiomegaly. If the modelgesses everything normal it would be 80% accurate despite being of no help at all. Be careful with accuracy in unbalanced data scenarios!
 
+We can actually prove how poor performing the model is by testing the model with the following example:
+
+Download a cardiomegaly case here
+
+Exitout of the "Under the hood" section. Click on the option "Webcam" and change to "File".
+![example image](./images/image6.jpg)
+
+Upload the cardiomegaly case and notice how the inference of the model is incorrect: "No finding" in a clear case of cardiomegaly.
+![example image](./images/image7.jpg)
+
 Let's see how things change if we make the dataset balanced.
 
 ### Experiment 2
@@ -66,4 +76,4 @@ Click on the left upper corner and "Open project from file" to load your first e
 ![example image](./images/image2.jpg)
 
 Upload the experiment1.tm file and wait for it to load. You should see the following page (please ensure the headings match):
-![example image](./images/image6.jpg)
+![example image](./images/image8.jpg)
