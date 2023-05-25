@@ -42,5 +42,8 @@ Save this file somewhere you can locate later, it will be needed in the next ste
 Click on the left upper corner and "Open project from file" to load your first experiment.
 ![example image](./images/image2.jpg)
 
-Upload the experiment1.tm file and wait for it to load. You should see the following page:
+Upload the experiment1.tm file and wait for it to load. You should see the following page (please ensure the headings match):
 ![example image](./images/image3.jpg)
+
+Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
+![example image](./images/image4.jpg)
