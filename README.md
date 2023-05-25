@@ -57,8 +57,7 @@ Notice how poor performance actually is! This discrepancy relates to the unbalan
 
 We can actually prove how poor performing the model is by testing the model with the following example:
 
-Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg?raw=true)
-![cardiomegaly](./images/cardiomegaly.jpg)
+Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
 
 Exitout of the "Under the hood" section. Click on the option "Webcam" and change to "File".
 ![example image](./images/image6.jpg)
