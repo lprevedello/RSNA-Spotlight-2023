@@ -36,6 +36,8 @@ To load Teachable machine right click on the link [here](https://teachablemachin
 You should see this website:
 ![example image](./images/image1.jpg)
 
+### Experiment 1
+
 Download the file for experiment 1 here: [experiment 1](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment1.tm)
 Save this file somewhere you can locate later, it will be needed in the next step.
 
@@ -54,6 +56,8 @@ Accuracy is very high as shown in the graph above. However, is the model really 
 Notice how poor performance actually is! This discrepancy relates to the unbalanced nature of the data. Notice that there are 10 times more normals than cases of cardiomegaly. If the modelgesses everything normal it would be 80% accurate despite being of no help at all. Be careful with accuracy in unbalanced data scenarios!
 
 Let's see how things change if we make the dataset balanced.
+
+### Experiment 2
 
 Download the file for experiment 2 here: [experiment 2](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm)
 Save this file somewhere you can locate later, it will be needed in the next step.
