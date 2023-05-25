@@ -38,4 +38,4 @@ You should see this website:
 
 Click on the left upper corner and "Open project from file" to load your first experiment.
 
-Download the following file of [experiment 1](./experiments/experiment1.tm)
+Download the following file of [experiment 1](https://raw.githubusercontent.com/lprevedello/RSNA-Spotlight-2023/experiments/experiment1.tm)
