@@ -34,4 +34,4 @@ For this session we will use Teachable Machine, a web-based tool created by Goog
 To load Teahcable machine right click on the teachable machine link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
 
 You should see this website:
-![example image](./images/Teachable Machine.png)
+[example image](./images/Teachable Machine.png)
