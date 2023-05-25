@@ -59,7 +59,7 @@ Notice how poor the performance actually is! This discrepancy relates to the unb
 
 We can actually prove how poor the performance of the model is by testing it with the following example:
 
-To download a cardiomegaly case righ + click [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg) and chose "Download Linked File".
+To download a cardiomegaly case righ + click [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg?raw=true) and chose "Download Linked File".
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 ![example image](./images/image6.jpg)
