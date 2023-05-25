@@ -37,6 +37,10 @@ You should see this website:
 ![example image](./images/image1.jpg)
 
 Download the file for experiment 1 here: [experiment 1](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment1.tm)
+Save this file somewhere you can locate later, it will be needed in the next step.
 
 Click on the left upper corner and "Open project from file" to load your first experiment.
 ![example image](./images/image2.jpg)
+
+Upload the experiment1.tm file and wait for it to load. You should see the following page:
+![example image](./images/image3.jpg)
