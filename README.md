@@ -131,3 +131,12 @@ If you do the same steps described previously for the file experiment4.tm you sh
 ![example image](./images/image16.jpg)
 
 Now that you have a model let's run inference on 4 different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg), [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
+
+Upload the four cases and observe the output of the model. It should something like this:
+![example image](./images/image17.jpg)
+
+Unfortunately the model was not able to distinguish well between pneumonia and effusion with the examples provided.
+
+However, the goal of this exercise was not to create a clinically ready algorithm, was just to show some of the most important components of an algorithm development so you can:
+  *Understand how the overall process to train a deep learning model works
+  *Learn basic concepts on how to assess model generalizability and performance
