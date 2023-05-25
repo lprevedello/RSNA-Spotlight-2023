@@ -69,7 +69,7 @@ Let's see how things change if we make the dataset balanced.
 
 ### Experiment 2
 
-Download the file for experiment [here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm).
+Download the file for experiment 2 [here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment2.tm).
 Save this file somewhere you can locate later, it will be needed in the next step.
 
 Click on the left upper corner and "Open project from file" to load your first experiment.
@@ -88,9 +88,41 @@ This time the model can differentiate cardiomegaly cases from cases without card
 
 We can actually see if this is the case by testing it with the same example as before:
 
-Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
+Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg).
 
 Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
 
 Upload the cardiomegaly case and observe the output of the model. It should be better than before.
 ![example image](./images/image11.jpg)
+
+Now let's make things a bit more interesting and add another finding: pleural effusion.
+
+### Experiment 3
+
+Download the file for experiment 3 [here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/experiment3.tm).
+Save this file somewhere you can locate later, it will be needed in the next step.
+
+Click on the left upper corner and "Open project from file" to load your first experiment.
+![example image](./images/image2.jpg)
+
+Upload the experiment2.tm file and wait for it to load. You should see the following page (please ensure the headings match):
+![example image](./images/image12.jpg)
+
+Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
+![example image](./images/image13.jpg)
+
+Accuracy is relatively high as shown in the graph above. But this time around it seems real. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+![example image](./images/image14.jpg)
+
+This time the model can differentiate cardiomegaly cases from cases without cardiomegaly.
+
+We can actually see if this is the case by testing it with the same example as before:
+
+Use the cardiomegaly case you previously downloaded or download it again [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg).
+
+Exit out of the "Under the hood" widget by clicking on the X sign in the upper right corner. Click on the option "Webcam" and change to "File" in the Preview widget.
+
+Upload the cardiomegaly case and observe the output of the model. It should be better than before.
+![example image](./images/image11.jpg)
+
+Now let's make things a bit more interesting and add another finding: pleural effusion.
