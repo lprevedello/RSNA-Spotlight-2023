@@ -114,7 +114,7 @@ Next, click on (1) Advanced to expand additional options, (2) Under the Hood to 
 Accuracy is relatively high as shown in the graph above. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
 ![example image](./images/image14.jpg)
 
-The model can differentiate cardiomegaly, effusion and cases without any of these abnormalities reasobaly well. However, based on the confusion matrix, the model does mixes cases of effusion and cardiomegaly. This starts to make sense when you look at the cases in the cardiomegaly dataset and see that are several cardiomegaly cases that also contain pleural effusion.
+The model can differentiate cardiomegaly, effusion and cases without any of these abnormalities reasonably well. However, based on the confusion matrix, the model does mixes cases of effusion and cardiomegaly. This starts to make sense when you look at the cases in the cardiomegaly dataset and see that are several cardiomegaly cases that also contain pleural effusion.
 
 This brings up an important point. For the purpose of this experiement, we have simplified things and the findings are being considered mutually exclusive. This type of experiment is called multi-class classification. In this type of classification problem a case can be in one and only one of three or more classes. In reality, the correct method to determine the findings in chest-ray would be multi-label classification in which each case can have more than one class.
 
@@ -124,3 +124,10 @@ Upload the three cases and observe the output of the model. It should something 
 ![example image](./images/image15.jpg)
 
 Now let's make things even more interesting and add yet another finding: pneumonia.
+
+### Experiment 4
+
+If you do the same steps described previously for the file experiment4.tm you should see something similar to this:
+![example image](./images/image16.jpg)
+
+Now that you have a model let's run inference on 4 different cases: [cardiomegaly](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg), [effusion](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/effusion.jpg) and [normal](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/normal.jpg), and [pneumonia](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/pneumonia.jpg)
