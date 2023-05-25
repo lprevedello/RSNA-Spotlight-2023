@@ -77,3 +77,20 @@ Click on the left upper corner and "Open project from file" to load your first e
 
 Upload the experiment2.tm file and wait for it to load. You should see the following page (please ensure the headings match):
 ![example image](./images/image8.jpg)
+
+Next, click on (1) Advanced to expand additional options, (2) Under the Hood to show real-time model training performance and (3) Train Model to start training your model.
+![example image](./images/image9.jpg)
+
+Accuracy is relatively high as shown in the graph above. But this around it seems real. Let's interpret the results by clicking on the "Accuracy per class" and "Confusion matrix" buttons.
+![example image](./images/image10.jpg)
+
+This time the model can differentiate cardiomegaly cases from normal ones.
+
+We can actually see if this is the case by testing it with the same example as before:
+
+Download a cardiomegaly case [here](https://github.com/lprevedello/RSNA-Spotlight-2023/blob/main/images/cardiomegaly.jpg)
+
+Exit out of the "Under the hood" section. Click on the option "Webcam" and change to "File".
+
+Upload the cardiomegaly case and observe the output of the model. It should be better than before.
+![example image](./images/image11.jpg)
