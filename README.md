@@ -31,6 +31,8 @@ In the same way that an expert radiologist points out the errors of a trainee, w
 
 For this session we will use Teachable Machine, a web-based tool created by Google that allows users to easily create machine learning models without needing any specialized knowledge, programming or advanced hardware.
 
+You will also need access to several files. All these files have been compacted in a single file [here](https://github.com/lprevedello/RSNA-Spotlight-2023/raw/main/experiments/all_downloads.zip) for convenience. If you have trouble downloading or decompressed this file, you will have the opportunity to download each of these files individually later.
+
 To load Teachable machine right click on the link [here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click). Please keep the two tabs open.
 
 You should see this website:
